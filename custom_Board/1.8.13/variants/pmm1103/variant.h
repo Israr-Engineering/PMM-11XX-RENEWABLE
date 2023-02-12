@@ -85,6 +85,37 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+
+#define PMM_Thermistor          (25ul)  //PA02 
+#define PMM_prog                (46ul)  //PA03 
+#define PMM_LoraRST             (2ul)   //PB08 
+#define PMM_Lora_CS             (3ul)   //PB09 
+#define PMM_Order_West          (4ul)   //PA04 
+#define PMM_Order_East          (5ul)   //PA05 
+#define PMM_M_AFeedBack         (10ul)  //PA06 
+#define PMM_RDENA2              (11ul)  //PA07 
+#define PMM_LED1                (12ul)  //PA13 
+#define PMM_FanControl          (18ul)  //PA14 
+#define PMM_Feedback_L1         (19ul)  //PA15 
+#define PMM_E220_M0             (22ul)  //PA16 
+#define PMM_E220_M1             (24ul)  //PA17 
+#define PMM_Man_Order_West      (21ul)  //PA18 
+#define PMM_Man_Order_East      (23ul)  //PA19 
+#define PMM_DI_LossOfPower      (13ul)  //PA20 : Digital Input :loos of power 
+#define PMM_Dio10               (14ul)  //PA21 
+#define PMM_DO_RDENA            (31ul)  //PA27 : Digital output : RS485 Direction control  
+#define PMM_POS_INT             (32ul)  //PA28 
+#define PMM_P2                  (15ul)  //PB02 
+#define PMM_DO_FLASH_CS         (16ul)  //PB03 : Digital output : Flash chip select command 
+
+
+
+
+
+
+
+
+
 /*
  * Analog pins
  */

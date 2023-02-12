@@ -85,6 +85,28 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+
+#define PMM_RSAdd_0          (11ul) //PA07 
+#define PMM_RSAdd_1          (10ul) //PA06 
+#define PMM_RSAdd_2          (5ul)  //PA05 
+#define PMM_RSAdd_3          (4ul)  //PA04 
+#define PMM_RSAdd_4          (3ul)  //PB09 
+
+#define PMM_PWM_X            (2ul)  //PB08 
+#define PMM_PWM_Y            (25ul) //PA02 
+#define PMM_GPIO1            (46ul) //PA03 
+#define PMM_GPIO2            (6ul)  //PA08 
+
+#define PMM_DO_RDENA         (7ul)  //PA09 : Digital output : RS485 Direction control  
+#define PMM_DI_LossOfPower   (31ul) //PA27 : Digital Input :loos of power 
+
+
+
+
+
+
+
+
 /*
  * Analog pins
  */
